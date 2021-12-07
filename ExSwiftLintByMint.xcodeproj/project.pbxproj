@@ -134,6 +134,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AF6C85E275FBC56003EA897 /* Build configuration list for PBXNativeTarget "ExSwiftLintByMint" */;
 			buildPhases = (
+				4AF6C867275FBE60003EA897 /* Run SwiftLint */,
 				4AF6C830275FBC54003EA897 /* Sources */,
 				4AF6C831275FBC54003EA897 /* Frameworks */,
 				4AF6C832275FBC54003EA897 /* Resources */,
@@ -252,6 +253,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AF6C867275FBE60003EA897 /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mint run swiftlint\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4AF6C830275FBC54003EA897 /* Sources */ = {

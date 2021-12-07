@@ -17,3 +17,7 @@ class ViewController: UIViewController {
 
 }
 
+enum ABC {
+    case Abc
+    case Def
+}
